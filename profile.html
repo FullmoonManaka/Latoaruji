@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>まなか｜ラトの特別な人</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="profile.css" rel="stylesheet">
+</head>
+<body>
+    <div id="tamagochi_frame">
+        <div id="tamagochi">
+            <div id="top"></div>
+            <div id="screen">
+                <div id="content">
+                    <ul class="menu-wrapper">
+                        <li><a href="javascript:moon();"><img src="moon.png"></a></li>
+                        <li><a href="javascript:heart();"><img src="heart.png"></a></li>
+                        <li><a href="javascript:cake();"><img src="cake.png"></a></li>
+                        <li><a href="javascript:ring();"><img src="ring.png"></a></li>
+                    </ul>
+                    <div id="items">
+                        <div class="item animate__animated animate__fadeIn" id="home" style="display: block;">
+                            <img src="dotlogo.png">
+                        </div>
+                        <div class="item animate__animated animate__fadeIn" id="manaka" style="display: none;">
+                            <img src="manaka.jpeg">
+                            <div class="desc">
+                                <h1>마나카 | 愛叶・まなか</h1>
+                                <h3>아쿠네코(악마집사와 검은 고양이:悪魔執事と黒い猫)<br>
+                                라토 바카(ラト・バッカ)</h3>
+                                <p class="detail">상호 유성애 로맨틱 주종 관계</p>
+                                <p><span class="highlight">#라토마나</span> <span class="highlight">#공의존</span> <span class="highlight">#쌍방구원</span></p>
+                                <p>성인 여성 | 글 | 썰 | 디자인 | 코딩</p>
+                                <p><b>극온리 | 극이입 | 동담불가 | 1T1D</b></p>
+                            </div>
+                        </div>
+                        <div class="item animate__animated animate__fadeIn" id="timeline" style="display: none;">
+                            <div class="box">
+                                <h3>About Me</h3>
+                                <p>저 = 마나카(드림주) / 동일시 해주세요. 편의상 3인칭으로 썰을 풀 때도 있습니다.</p>
+                                <p>맞팔이 되면 무조건 1탐 1드해드리고 있습니다. 저도 반드시 같은 배려해주세요.</p>
+                                <p class="highlight">제 겹드림은 물론, 제 동담분(겹최애)도 탐라에 두지 말아주세요.<br>
+                                    드림계 뿐만 아니라 사담계나 비계 등 보유하고 계신 모든 계정에 해당됩니다.<br>
+                                    이러한 배려가 어려우시다면 제 쪽을 정리해주세요.
+                                </p>
+                                <p>마음 위주의 느긋한 교류. 지나치게 접률이 낮거나 제 쪽에서 일방적이라 느껴지는 분은 정기적으로 정리합니다.</p>
+                                <p>백업계처럼 썰이나 커미션, 굿즈나 이벤트 참가 사진 등을 업로드할 때 위주로 느긋하게 들어옵니다.<br>
+                                이 부분 양해 어려우시면 팔로 재고해주세요.</p>
+                                <p>탐라에서 보이는 내용과 가정방문 위주로 짧게짧게 탐복을 하고 있습니다.</p>
+                                <p class="highlight">은혼 카무이 드림 절대 탐라에 들이지 않습니다. 인용이나 직멘 등의 눈에 들어오는 형태가 아니면 배려는 딱히 필요 없습니다.</p>
+                            </div>
+                        </div>
+                        <div class="item animate__animated animate__fadeIn" id="latomana" style="display: none;">
+                            <img src="love.PNG">
+                            <div class="box">
+                                <h1>盲従なる永遠の約束</h1>
+                                <h2>맹종하는 영원의 약속</h2>
+                                <p class="namae">
+                                    <span class="highlight">라토 바카</span> X <span class="highlight2">모치즈키 마나카</span><br><br>
+                                    ラト・バッカ X 望月愛叶<br>
+                                    Lato Bacca X Manaka Mochizuki
+                                </p>
+                                <div class="text-start lato">
+                                    <p>저희는 죽을 때까지도, 죽고 나서도 함께에요. <br>혼자 두지 말아주세요.</p>
+                                    <p class="serif">私たちは死ぬまで一緒、死んでも一緒です。私を一人にしないでください。</p>
+                                    <p class="quote">처음 느끼는 감정에서 싹튼 순수한 애정은 무겁기 짝이 없어 걷잡을 수 없는 심연에 가라앉는 것조차도 사랑이라 여기게 했다.</p>
+                                </div>
+                                <div class="text-end manaka mt-4">
+                                    <p>내 마지막까지 너를 혼자 두지 않을게. <br>우린 영원히 함께야.</p>
+                                    <p class="serif">私の最期まであなたを一人にさせない。私たちは永遠に一緒だよ。</p>
+                                    <p class="quote">과거의 저주에 깊은 어둠이 한없이 퍼지는 것도 알아차리지 못하고 그저 그 순수한 애정을 받아주는 것을 행복이라 느꼈다.</p>
+                                </div>
+                                <img src="love2.PNG">
+                                <p class="mt-5">상호 의존이 매우 심한 공의존 관계의 집사와 주인. 동시에 서로를 이해해줄 수 있는건 서로 밖애 없는 쌍방구원.<br>
+                                    서로가 있기에 과거의 고통을 이겨낼 수 있어 서로의 존재가 필수불가결하며 유일무이.<br>
+                                    죽음의 마지막까지 함께 하며, 죽을 때에도 함께 죽는 것으로 죽고 나서도 영원을 약속한 사이.<br><br>
+                                    겉보기에는 라토가 일방적으로 마나카에게 의존과 집착이 끔찍할 정도로 심한 것으로 보이지만,
+                                    라토와 동일하게 마나카도 라토에게 지독하게 의존하고 집착한다.<br><br>
+                                    명백한 애정 관계에 있으며, 서로 사랑한다고 마음까지 밝혔지만 공식적으로 사귀진 않는다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item animate__animated animate__fadeIn" id="day" style="display: none;">
+                            <div id="counter">
+                                <h3>Since we loved</h3>
+                                2023.04.26
+                                <ul>
+                                    <li><span id="days"></span>days</li>
+                                    <li><span id="hours"></span>Hours</li>
+                                    <li><span id="minutes"></span>Minutes</li>
+                                    <li><span id="seconds"></span>Seconds</li>
+                                  </ul>
+                              </div>
+                        </div>
+                        <div class="item animate__animated animate__fadeIn" id="dreams" style="display: none;">
+                            <div class="box text-center">
+                                <h3>상호배려리스트</h3>
+                                <p >相互拒否リスト</p>
+                                <hr>
+                                <p>아쿠네코 - 보스키 아리나스<br>
+                                    아쿠네코 - 플루레 가르시아<br>
+                                    아쿠네코 - 아몬 리드<br>
+                                    아쿠네코 - 카와카미 하나마루<br>
+                                    아쿠네코 - 라무리 베넷<br>
+                                    아쿠네코 - 페네스 오스왈드<br>
+                                    아쿠네코 - 나크 슈타인<br>
+                                    아쿠네코 - 바스틴 켈리<br>
+                                    아쿠네코 - 하우레스 클리포드<br>
+                                    아쿠네코 - 테디 브라운<br>
+                                    아쿠네코 - 베리안 클라이안<br>
+                                    아쿠네코 - 로노 폰테인<br>
+                                    파이널판타지14 - 알피노 르베유르<br>
+                                    에리오즈 라이징 히어로스 - 제이 키드먼<br>
+                                    아이돌마스터 신데렐라 걸즈 - 시마무라 우즈키<br>
+                                    죠죠의 기묘한 모험 - 죠르노 죠바나<br>
+                                    뮤지컬 프랑켄슈타인 - 앙리 뒤프레<br>
+                                    앙상블스타즈 - 칸자키 소마<br>
+                                    문호스트레이독스 - 나카하라 츄야<br>
+                                    트위스테 - 릴리아 반루즈<br>
+                                    테니프리 - 오시타리 유시<br>
+                                    악마에 입문했습니다! 이루마군 - 오페라<br>
+                                    러브라이브 선샤인 - 오하라 마리<br>
+                                    망나니 PD 아이돌로 살아남기 - 성지원<br>
+                                    주술회전 - 쵸소우<br>
+                                    가비지타임 - 기상호
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item animate__animated animate__fadeIn" id="banner" style="display: none;">
+                            <div class="box">
+                                <h3 class="mt-3">Banner</h3>
+                                <hr>
+                                <img src="banner/banner1.png">
+                                <h5>どこへも行かないよ</h5>
+                                <br>
+                                <a href="https://lit.link/boschiforever "><img src="banner/young.png" title=""></a>
+                                <br>
+                                <a href="https://winternostalgia.tistory.com/notice"><img src="banner/chiyo.png" title=""></a>
+                                <br>
+                                <a href="https://cosmic-record.tistory.com/notice"><img src="banner/rober.png" title=""></a>
+                                <br>
+                                <a href="http://akng.tistory.com"><img src="banner/nagi.png" title=""></a>
+                                <br>
+                                <a href="https://january-dream-home.tistory.com/33"><img src="banner/ilwal.png" title=""></a>
+                                <br>
+                                <a href="https://ryomadayun.carrd.co/"><img src="banner/dayun.jpg" title=""></a>
+                                <br>
+                                <a href="https://0626x0319.tistory.com/212"><img src="banner/sayu.gif" title=""></a>
+                                <br>
+                                <a href="https://oceanlove.tistory.com"><img src="banner/marin.png"></a>
+                                <br>
+                                <a href="https://onitohimawari.tistory.com/"><img src="banner/oni.png"></a>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="item animate__animated animate__fadeIn" id="music" style="display: none;">
+                            <div class="box">
+                                <h3>About Timeline</h3>
+                                <p class="highlight"><b>NG:</b><br> 라토 겹드림 / 라토 동담(겹최애) / 불법 소비 / 커미션 출처 미표기<br>
+                                블락으로 대응합니다.</p>
+                                <p><b>아쿠네코:</b><br>게임 내 캡쳐 등 많이 올라옵니다. 일섭으로만 플레이하고 있어서 한섭에는 아직 없는 이벤트나 카드 등의 스포가 존재합니다.</p>
+                                <p><b>굿즈 및 이벤트:</b><br> 라토 굿즈 매입한 뒤 사진, 라토 굿즈존 사진 등은 물론 도쿄에서 거주하고 있어 이벤트 참여 사진도 많이 올립니다.</p>
+                                <p><b>일상:</b>라토를 데리고 외출한 데이트 사진이나 여행 사진 등을 종종 올립니다. 큰 셀털은 하지 않습니다.</p>
+                                <p><b>기타:</b> 라토를 너무 사랑하다가 그만 라토의 성우 야마야 요시타카상의 얼빠가 되었습니다...아쿠네코 이벤트 때 처음 직접 뵈었는데 외모랑 성격이랑 성향이랑 정말 너무 제 취향이세요...언급 거의 없지만 혹시 몰라 기재해둡니다...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="menu-wrapper-bt">
+                        <li><a href="javascript:parsley();"><img src="parsley.png"></a></li>
+                        <li><a href="javascript:cup();"><img src="cup.png"></a></li>
+                        <li><a href="javascript:book();"><img src="book.png"></a></li>
+                        <li><a href="javascript:akuma();"><img src="akuma.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="button-wrapper">
+                <a class="button" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="hover" data-bs-content="Twitter" href="https://twitter.com/latoaruji"></a>
+                <a class="button" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="hover" data-bs-content="Homepage" href="http://latoloves.me"></a>
+                <a class="button" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="hover" data-bs-content="Message" href="https://curious.quizby.me/c/latoaruji/m"></a>
+            </div>
+        </div>
+    </div>
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+        // screen switch
+        var screenBack = document.getElementById('screen');
+        var scrollBox = document.getElementById('items');
+        function screenSwitch(){
+            var tamaScreen = document.getElementsByClassName('item');
+            for(var i = 0; i < tamaScreen.length; i++) {
+            tamaScreen[i].style.display = "none";
+            }
+        }
+        function manaka(){
+            document.getElementById('manaka').style.display = 'block';
+            screenBack.style.backgroundImage = 'url(back0.png)';
+            screenBack.style.backgroundPosition = 'center left';
+            scrollBox.scrollTop = 0;
+        }
+        function timeline(){
+            document.getElementById('timeline').style.display = 'block';
+            screenBack.style.backgroundImage = 'url(back2.png)';
+            screenBack.style.backgroundPosition = 'center right';
+            scrollBox.scrollTop = 0;
+        }
+        function latomana(){
+            document.getElementById('latomana').style.display = 'block';
+            screenBack.style.backgroundImage = 'url(back6.jpeg)';
+            screenBack.style.backgroundPosition = 'center center';
+            scrollBox.scrollTop = 0;
+        }
+        function day(){
+            document.getElementById('day').style.display = 'block';
+            screenBack.style.backgroundImage = 'url(back1.png)';
+            screenBack.style.backgroundPosition = 'center right';
+            scrollBox.scrollTop = 0;
+        }
+        function dreams(){
+            document.getElementById('dreams').style.display = 'block';
+            screenBack.style.backgroundImage = 'url(back4.png)';
+            screenBack.style.backgroundPosition = 'center right';
+            scrollBox.scrollTop = 0;
+        }
+        function banner(){
+            document.getElementById('banner').style.display = 'block';
+            screenBack.style.backgroundImage = 'url(back5.png)';
+            screenBack.style.backgroundPosition = 'bottom left';
+            scrollBox.scrollTop = 0;
+        }
+        function music(){
+            document.getElementById('music').style.display = 'block';
+            screenBack.style.backgroundImage = 'url(back3.png)';
+            screenBack.style.backgroundPosition = 'center right';
+            scrollBox.scrollTop = 0;
+        }
+        function home(){
+            document.getElementById('home').style.display = 'block';
+            screenBack.style.backgroundImage = 'url(back7.jpeg)';
+            screenBack.style.backgroundPosition = 'center center';
+            scrollBox.scrollTop = 0;
+        }
+        function cake(){
+            screenSwitch();
+            timeline();
+        }
+        function moon(){
+            screenSwitch();
+            manaka();
+        }
+        function heart(){
+            screenSwitch();
+            latomana();
+        }
+        function parsley(){
+            screenSwitch();
+            day();
+        }
+        function cup(){
+            screenSwitch();
+            dreams();
+        }
+        function book(){
+            screenSwitch();
+            banner();
+        }
+        function ring(){
+            screenSwitch();
+            music();
+        }
+        function akuma(){
+            screenSwitch();
+            home();
+        }
+
+        const dsecond = 1000,
+      dminute = dsecond * 60,
+      dhour = dminute * 60,
+      dday = dhour * 24;
+
+    let countDown = new Date('Apr 26, 2023 00:00:00').getTime(),
+        x = setInterval(function() {    
+
+        let now = new Date().getTime(),
+            distance = now - countDown;
+
+        document.getElementById('days').innerText = Math.floor(distance / (dday)),
+            document.getElementById('hours').innerText = Math.floor((distance % (dday)) / (dhour)),
+            document.getElementById('minutes').innerText = Math.floor((distance % (dhour)) / (dminute)),
+            document.getElementById('seconds').innerText = Math.floor((distance % (dminute)) / dsecond);
+
+        //do something later when date is reached
+        //if (distance < 0) {
+        //  clearInterval(x);
+        //  'IT'S MY BIRTHDAY!;
+        //}
+
+        }, dsecond)
+
+    </script>
+</body>
+</html>
