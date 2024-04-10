@@ -151,11 +151,11 @@ body {
 }
 
 #manaka h1 {
-   font-size: 18px;
+   font-size: 1.4em;
 }
 
 #manaka h3 {
-   font-size: 13px;
+   font-size: 1.2em;
 }
 
 #manaka .detail {
@@ -316,8 +316,73 @@ body {
     margin: 0;
  }
 
-@media screen and (max-width: 550px) {
-    #tamagochi_frame {
-        width: 90%;
-        height: 100%;
-}
+ @media screen and (max-width: 550px) {
+   #tamagochi_frame {
+      width: 370px;
+      height: 420px;
+   }
+   #tamagochi {
+      width: 340px;
+      height: 390px;
+      margin: 10px auto;
+   }
+   #top {
+      height: 70px;
+      background-size: contain;
+   }
+   #screen {
+      width: 230px;
+      height: 230px;
+   }
+   
+   .menu-wrapper img, .menu-wrapper-bt img {
+      height: 25px;
+      width: 25px;
+   }
+
+   #items {
+      font-size: 10px;
+   }
+
+   #manaka img {
+      width: 100%;
+      height: auto;
+   }
+
+   #manaka .desc {
+      padding: 10px 0;
+   }
+
+   #latomana .lato, #latomana .manaka {
+      margin: 10px;
+   }
+
+   #day {
+      font-size: 0.8em;
+   }
+
+   #day #counter {
+      padding: 10px;
+   }
+
+   #day li {
+      margin: 8px;
+   }
+
+   #banner {
+      padding: 5px;
+   }
+
+   #home {
+      width: 100%;
+   }
+
+   #home img {
+      left: 25px;
+   }
+
+   .button {
+      width: 18px;
+      height: 18px;
+   }
+ }
