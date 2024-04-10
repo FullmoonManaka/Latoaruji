@@ -315,3 +315,9 @@ body {
  .button:last-child {
     margin: 0;
  }
+
+@media screen and (max-width: 550px) {
+    #tamagochi_frame {
+        width: 90%;
+        height: 100%;
+}
